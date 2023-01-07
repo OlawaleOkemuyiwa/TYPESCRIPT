@@ -22,7 +22,7 @@ const someArr: [string, number] = ["author", 43];
 // someArr[0] = 1;
 // someArr[2] = false;
 // someArr[1] = "hii";
-someArr.push("heyyoo"); //push still works to modify the length of the array in though the element pushed must conform to the element types set on the tuple
+someArr.push("heyyoo"); //push still works to modify the length of the array even though the element pushed must conform to the element types set on the tuple
 
 //ENUMS --> enums are custom types that are a great construct to create identifiers that are human readable and have some mapped value behind the scenes
 enum Role {
