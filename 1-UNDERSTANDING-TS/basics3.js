@@ -1,6 +1,6 @@
 //FUNCTION RETURN TYPES & VOID
 function add(n1, n2) {
-    //returning a number so the implicit return type when this func is called is number through inferance, if i explicitly set the return type here to e.g string. Then it ts can't allow return n1 + n2 whose value is a number type
+    //add func returns a number so the implicit return type when this func is called is number through inferance, if i explicitly set the return type here to e.g string. Then ts won't allow return of sum n1 and n2 whose value is of type number
     return n1 + n2;
 }
 function doSth(text) {
